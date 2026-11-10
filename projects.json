@@ -1,0 +1,800 @@
+{
+ "person": {
+  "name": "Jerry Shaughnessy",
+  "intro": [
+   "I'm a Human Factors & Ergonomics grad student at San José State. I run usability tests, surveys and interviews, then turn what I see into recommendations a team can act on."
+  ],
+  "updated": "October 2026",
+  "photo": "",
+  "email": "jerry.shaughnessy@sjsu.edu",
+  "links": [],
+  "description": "UX research portfolio of Jerry Shaughnessy, a Human Factors & Ergonomics grad student at San José State: an Airbnb usability study, a Madden 26 heuristic evaluation and a UXR Interview Library study.",
+  "headline": "I find where people ~~get stuck~~.",
+  "note": "currently: audience research intern at KQED"
+ },
+ "projects": [
+  {
+   "id": "airbnb",
+   "title": "Airbnb: finding the friction in booking a trip",
+   "short": "Airbnb usability study",
+   "meta": "Usability study, redesign and retest · n = 6 · Solo",
+   "summary": "Six people tried to book a stay, add an experience and find their check-in details. Hidden fees and a disconnected Trips page caused most of the errors. The redesign cut booking errors by 62% and raised SUS from 62.5 to 81.5.",
+   "hook": "Every participant went to the Trips page to add an experience to their stay. ==None of them found it there.==",
+   "sections": [
+    {
+     "heading": "Why I looked at this",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "An interface analysis and comparative study pointed to three problems: the total price only shows up at checkout, experiences are booked in a completely separate flow from the stay, and trip details are spread across several screens. Each one is a reason to abandon a booking or switch to Booking.com or Expedia, which already bundle stays and activities."
+      },
+      {
+       "type": "text",
+       "text": "I wanted to know how much each of these actually slowed people down, and which to fix first."
+      }
+     ]
+    },
+    {
+     "heading": "How I ran it",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "Moderated, in-person sessions with six participants, each working through three task scenarios while I screen-recorded. I ran a short interview before the tasks, after each task and at the end."
+      },
+      {
+       "type": "more",
+       "summary": "Metrics and how I defined an error",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "I tracked completion, time on task, errors and SUS. I counted an error as any click that sent someone backtracking, to the wrong screen or back to the start of the task. Exploratory browsing didn't count."
+        }
+       ]
+      },
+      {
+       "type": "image",
+       "src": "img/airbnb-process.webp",
+       "caption": "Interface analysis, comparative study, usability testing, thematic analysis, redesign, final usability test.",
+       "wide": true,
+       "w": 1098,
+       "h": 178
+      }
+     ]
+    },
+    {
+     "heading": "Booking a stay: the price wasn't the price",
+     "blocks": [
+      {
+       "type": "image",
+       "src": "img/airbnb-task1-map-annotated.webp",
+       "caption": "Map view. Prices like this $1,286 leave out fees until checkout.",
+       "side": true,
+       "w": 398,
+       "h": 864
+      },
+      {
+       "type": "text",
+       "text": "The scenario: a student going to a conference in Chicago needs a place for 6 people, under $2,000, within 6 miles of the venue, October 12 to 18."
+      },
+      {
+       "type": "figures",
+       "items": [
+        "83% completed",
+        "2.1 errors per person",
+        "3:40 average"
+       ]
+      },
+      {
+       "type": "text",
+       "text": "Hidden fees caused 7 of the 13 errors and tripped up 4 of 6 people. Two-thirds failed on their first attempt."
+      },
+      {
+       "type": "quote",
+       "text": "I didn't like that the final price was not displayed when I selected the apartment.",
+       "who": "Participant 1"
+      }
+     ]
+    },
+    {
+     "heading": "Adding an experience: looking in the obvious place",
+     "blocks": [
+      {
+       "type": "image",
+       "src": "img/airbnb-task2-reservation.webp",
+       "caption": "Reservation details. Nothing here leads to experiences.",
+       "side": true,
+       "w": 272,
+       "h": 592
+      },
+      {
+       "type": "text",
+       "text": "The scenario: add a museum, architecture or performance experience for the same 6 people, at about $60 each."
+      },
+      {
+       "type": "figures",
+       "items": [
+        "100% completed",
+        "1.5 errors per person",
+        "2:17 average"
+       ]
+      },
+      {
+       "type": "text",
+       "text": "Everyone got there eventually, but every single person started on the Trips page, because that's where their stay lived. 6 of the 9 errors came from experiences not being connected to the trip."
+      },
+      {
+       "type": "quote",
+       "text": "Connect the stay to the experiences — a shortcut would have made it easier.",
+       "who": "Participant 3"
+      },
+      {
+       "type": "quote",
+       "text": "I tried searching for a museum in the search bar and the results didn't make any sense… I could not tell where experiences were.",
+       "who": "Participant 6"
+      }
+     ]
+    },
+    {
+     "heading": "Arriving: where's the address?",
+     "blocks": [
+      {
+       "type": "image",
+       "src": "img/airbnb-task3-trip.webp",
+       "caption": "Trip details screen.",
+       "side": true,
+       "w": 438,
+       "h": 926
+      },
+      {
+       "type": "text",
+       "text": "The scenario: you've just arrived. Find the address, house rules, host chat, receipt, check-in method, help center and confirmation code."
+      },
+      {
+       "type": "figures",
+       "items": [
+        "100% completed",
+        "2:43 average",
+        "23 seconds just to find the address"
+       ]
+      },
+      {
+       "type": "text",
+       "text": "The address was the hardest thing to find for 4 of 5 people, which is a rough first moment at a new place. Some elements looked like buttons but weren't, and information was split between the trip page and messages."
+      },
+      {
+       "type": "quote",
+       "text": "Not sure what a button is or not. Grouping of the buttons can be unclear because there is just white space.",
+       "who": "Participant 5"
+      },
+      {
+       "type": "more",
+       "summary": "Roadblocks on this task",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "I couldn't code errors reliably from the recordings on this task, so I leaned on the post-task interviews. One participant also had to leave before this task, so I recruited a sixth."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "What I recommended",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "Price transparency and experience integration caused 72% of all errors, so those came first."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "**High priority:** show the full price, fees included, from the first listing view",
+        "**High priority:** let travelers add experiences directly from the Trips screen",
+        "**Medium priority:** regroup trip details so address, check-in and receipt sit together"
+       ]
+      },
+      {
+       "type": "image",
+       "src": "img/airbnb-price-redesign.webp",
+       "caption": "Redesign: \"Prices include all fees\" on the map listing, carried through to the booking page.",
+       "wide": true,
+       "w": 1400,
+       "h": 881
+      }
+     ]
+    },
+    {
+     "heading": "Retesting the redesign",
+     "blocks": [
+      {
+       "type": "compare",
+       "items": [
+        {
+         "metric": "Task 1 errors",
+         "before": "13 (2.1/person)",
+         "after": "5 (0.8/person)",
+         "change": "62% fewer"
+        },
+        {
+         "metric": "Task 2 errors",
+         "before": "9 (1.5/person)",
+         "after": "0",
+         "change": "eliminated"
+        },
+        {
+         "metric": "Task 1 time",
+         "before": "3:40",
+         "after": "2:44",
+         "change": "25% faster"
+        },
+        {
+         "metric": "Task 2 time",
+         "before": "2:17",
+         "after": "0:51",
+         "change": "63% faster"
+        },
+        {
+         "metric": "Task 3 time",
+         "before": "2:43",
+         "after": "1:22",
+         "change": "49% faster"
+        },
+        {
+         "metric": "SUS",
+         "before": "62.5",
+         "after": "81.5",
+         "change": "+19"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Looking back",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "Coding errors with a strict definition turned what I was watching into numbers I could compare before and after, and the behavior, the SUS scores and the interviews all pointed the same way. Testing, redesigning and retesting is what made the result defensible."
+      },
+      {
+       "type": "text",
+       "text": "Next time I'd recruit beyond college students and test with more than six people, add a Single Ease Question after each task, and have a second person check my error coding, since I was the only coder."
+      }
+     ]
+    }
+   ],
+   "thumb": "img/airbnb-thumb.webp",
+   "nav": "Airbnb",
+   "kicker": "Usability study + redesign",
+   "outcome": "Redesign cut booking errors by ==62%== and raised SUS from 62.5 to 81.5.",
+   "card": {
+    "type": "stat",
+    "value": "62.5 → 81.5",
+    "label": "SUS score, before and after the redesign",
+    "image": "img/airbnb-thumb.webp"
+   },
+   "glance": [
+    {
+     "label": "Role",
+     "value": "Solo researcher"
+    },
+    {
+     "label": "Method",
+     "value": "Moderated in-person usability testing, 3 tasks"
+    },
+    {
+     "label": "Participants",
+     "value": "6"
+    },
+    {
+     "label": "Measures",
+     "value": "Completion, errors, time on task, SUS"
+    }
+   ],
+   "result": {
+    "big": "62.5 → 81.5",
+    "label": "SUS score after the redesign",
+    "text": "Booking errors dropped 62%, experience errors disappeared, and every task got faster."
+   }
+  },
+  {
+   "id": "madden",
+   "title": "Madden 26: a heuristic evaluation",
+   "short": "Madden 26 heuristic evaluation",
+   "meta": "Fall 2025 · Final project, Seminar in Human Factors (Psyc 273) with Dr. Andre · Survey of 16 players",
+   "summary": "I surveyed 16 players, then reviewed Madden 26 three ways: against usability principles, screen by screen, and by walking through real goals. The game leans hard on memorization and football jargon, and new players get hit hardest.",
+   "hook": "Switching to a Cover 3 and shading your secondary inside takes ==six button presses==. You have about five seconds before the snap.",
+   "sections": [
+    {
+     "heading": "The question",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "The final project was to pick a real product and evaluate its usability. I chose Madden 26, EA's NFL game, mostly played on PlayStation and Xbox across modes like Franchise, Ultimate Team, Superstar and online head-to-head. The question was how well the interface serves what players are actually trying to do, and where it gets in their way."
+      }
+     ]
+    },
+    {
+     "heading": "Who plays, and what that told me",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "I ran a Google Forms survey to reach as many players as I could quickly. 13 responses came from the r/Madden community and 3 from players I met through in-game chat. It covered background, how and when people play, and what frustrates them."
+      },
+      {
+       "type": "figures",
+       "items": [
+        "13 of 16 have 5+ years of playing Madden",
+        "80%+ play Franchise",
+        "75% play in the evening after work or school",
+        "37.5% play 2+ hours at a time"
+       ]
+      },
+      {
+       "type": "text",
+       "text": "People play because they love football, they like beating real opponents, and they enjoy building and managing a roster. They play long sessions to unwind at night, and about half play under the influence of alcohol or marijuana. They want a low-stress experience, and small bits of friction add up over a two-hour session."
+      },
+      {
+       "type": "text",
+       "text": "From the survey I wrote nine usage assumptions to evaluate the game against. The ones that shaped this evaluation most:"
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "They play because they like football and want to have fun",
+        "They play to relax in the evening, often for long sessions",
+        "They like competing and managing a roster",
+        "They value efficient, uninterrupted interaction",
+        "Most haven't played football at a level where complex terminology comes naturally"
+       ]
+      },
+      {
+       "type": "more",
+       "summary": "Limitation and personas",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Only 2 of the 16 had less than three years of experience, so new players were under-represented. I wrote three personas to keep them in view: John, 22, a college student who's played on and off for 7 years; Karl, 27, an accountant who's new to Madden and newly into football; and Eric, 33, who has a Madden YouTube channel and played college football."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Six button presses in five seconds",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "The task: before the snap, switch the defense to a Cover 3 and shade the secondary inside. Here's every step."
+      },
+      {
+       "type": "sequence",
+       "keys": [
+        "R3",
+        "□",
+        "R1",
+        "R3",
+        "△",
+        "◀"
+       ],
+       "frames": [
+        {
+         "src": "img/madden-presnap-1.webp",
+         "presses": 1,
+         "caption": "Find Pre-play. It's a small label in the bottom-right corner, and you're also trying to read the offense.",
+         "w": 1124,
+         "h": 636
+        },
+        {
+         "src": "img/madden-presnap-2.webp",
+         "presses": 2,
+         "caption": "Pick Audible to change the play. That's only the obvious choice if you already know the football term.",
+         "w": 1124,
+         "h": 634
+        },
+        {
+         "src": "img/madden-presnap-audibles.webp",
+         "presses": 3,
+         "caption": "Choose Cover 3 Sky. The game drops you back on the field, so the second adjustment starts over.",
+         "w": 801,
+         "h": 451
+        },
+        {
+         "src": "img/madden-presnap-3.webp",
+         "presses": 6,
+         "caption": "Pre-play again, Secondary, then Inside. Nothing on the field shows that the change took effect.",
+         "w": 1124,
+         "h": 632
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "text": "All of that happens while the play clock runs down, in about five seconds. It leans on memorized button combinations, unfamiliar terms and no feedback. For players who come to Madden to unwind after work, that's the opposite of relaxing, and new players need a lot of practice just to compete."
+      },
+      {
+       "type": "text",
+       "text": "**Fix:** guide players through pre-snap adjustments, give newer players fewer options, use plain terms, and confirm when an adjustment takes effect."
+      }
+     ]
+    },
+    {
+     "heading": "The game contradicts its own data",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "Some of the trade flow works well. \"Upgrade Position\" speaks the player's language, since people trade because they want to upgrade a position."
+      },
+      {
+       "type": "pair",
+       "items": [
+        {
+         "type": "image",
+         "src": "img/madden-trade-upgrade.webp",
+         "caption": "What works: \"Upgrade Position\" matches the player's goal.",
+         "w": 1124,
+         "h": 632,
+         "label": "Works"
+        },
+        {
+         "type": "image",
+         "src": "img/madden-trade-donald.webp",
+         "caption": "What breaks: the Raiders' top need is DT, but they show low interest in a 99-overall DT.",
+         "w": 1124,
+         "h": 639,
+         "label": "Breaks"
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "text": "Then it falls apart. The Raiders list a defensive tackle as their number one need, yet show low interest in Aaron Donald, a 99-overall defensive tackle and one of the best players in the game. And the only interest signal is a tiny red triangle in the corner of the card, with no legend."
+      },
+      {
+       "type": "image",
+       "src": "img/madden-trade-triangle.webp",
+       "caption": "The interest indicator: a small red triangle in the top-left corner, explained nowhere on screen.",
+       "w": 1123,
+       "h": 369
+      },
+      {
+       "type": "text",
+       "text": "For players who come to Franchise for roster management, misleading team needs waste time and can push them away from the feature. **Fix:** make trade interest match team needs, and add a legend for the indicator."
+      },
+      {
+       "type": "more",
+       "summary": "See the full trade flow",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "img/madden-trade-menu.webp",
+         "caption": "Step 1: Trade Center sits in the middle of the GM's Office menu, even though roster management is why most people play Franchise.",
+         "w": 1124,
+         "h": 632
+        },
+        {
+         "type": "image",
+         "src": "img/madden-trade-position.webp",
+         "caption": "Step 3: pick the position to upgrade. This part matches how players think about trades.",
+         "w": 1124,
+         "h": 634
+        },
+        {
+         "type": "image",
+         "src": "img/madden-trade-oneteam.webp",
+         "caption": "Step 4: you can only browse one team's players at a time, so you have to remember who had the player you wanted.",
+         "w": 1124,
+         "h": 629
+        },
+        {
+         "type": "text",
+         "text": "**Fix for step 4:** show 10 players at a time, ranked by overall rating, with paging for more."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Even veterans learn the icons by trial and error",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "In the survey, even experienced players said they figure out icons and pre-snap options through trial and error or by looking them up online. The screens back that up."
+      },
+      {
+       "type": "image",
+       "src": "img/madden-ut-currency.webp",
+       "caption": "Ultimate Team's currency bar: five icons, no labels.",
+       "w": 1124,
+       "h": 99,
+       "wide": true
+      },
+      {
+       "type": "image",
+       "src": "img/madden-ut-snow.webp",
+       "caption": "A featured reward of \"73900 Snow.\" What is snow?",
+       "w": 431,
+       "h": 409,
+       "side": true
+      },
+      {
+       "type": "text",
+       "text": "Players said it, and the evaluation shows it. Unclear icons and rewards cost players time they'd rather spend playing, and make it hard to tell whether a challenge is worth chasing."
+      },
+      {
+       "type": "text",
+       "text": "**Fix:** label icons every time they appear, explain what rewards are and their odds, and cut down the number of currencies."
+      }
+     ]
+    },
+    {
+     "heading": "What does 60/100 mean?",
+     "blocks": [
+      {
+       "type": "image",
+       "src": "img/madden-qb-slider.webp",
+       "caption": "Franchise game settings: \"QB Sub Out\" set to 60/100.",
+       "w": 1200,
+       "h": 679
+      },
+      {
+       "type": "text",
+       "text": "This slider controls how often your quarterback gets substituted out. But 60/100 doesn't say what will actually happen. Is he subbed out 60% of the time? When his stamina drops below 60%? Players trying to set up a game and get on the field shouldn't have to puzzle that out."
+      },
+      {
+       "type": "text",
+       "text": "**Fix:** tie the setting to something players can see, like a stamina level that triggers the sub, or drop the setting and let players sub through the depth chart."
+      }
+     ]
+    },
+    {
+     "heading": "Everything else I found",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "Across eight usability principles and a screen-by-screen review of the Ultimate Team and Franchise home pages, I found 11 problem areas in all. Here's the rest."
+      },
+      {
+       "type": "accordion",
+       "items": [
+        {
+         "name": "Readability",
+         "issue": "Low-contrast text over busy, moving backgrounds, like the Franchise draft board.",
+         "fix": "Raise contrast, enlarge text, use static backgrounds."
+        },
+        {
+         "name": "Recognition over recall",
+         "issue": "Upgrade tokens and unopened packs come with no explanation of what they do or contain.",
+         "fix": "Add short descriptions and pack odds where players decide."
+        },
+        {
+         "name": "Visibility of system status",
+         "issue": "A blank loading screen after a game. A QB substitution slider set to \"60/100\" with no clear meaning.",
+         "fix": "Show progress and next steps. Tie settings to something visible, like a stamina threshold."
+        },
+        {
+         "name": "Hick's Law",
+         "issue": "241 Ultimate Team sets to sort through.",
+         "fix": "Cut outdated and low-value sets."
+        },
+        {
+         "name": "Negative affordances",
+         "issue": "Highlighted options look editable but aren't.",
+         "fix": "Style non-selectable options differently."
+        },
+        {
+         "name": "Match with the real world",
+         "issue": "Acronyms and collectible jargon players don't use.",
+         "fix": "Use players' own language."
+        },
+        {
+         "name": "Learnability",
+         "issue": "In-game adjustments and the Ultimate Team icon bar depend on memorization.",
+         "fix": "Label icons and guide players through controls."
+        },
+        {
+         "name": "Minimalist design",
+         "issue": "Animated backgrounds compete with the information players need.",
+         "fix": "Use calm, stable backgrounds."
+        },
+        {
+         "name": "Information hierarchy",
+         "issue": "Sets you've already completed sit at the bottom of a 242-item scroll, under the newest ones.",
+         "fix": "Put sets that are ready to redeem at the top."
+        },
+        {
+         "name": "Visual clutter",
+         "issue": "The Franchise home page shows three unrelated panels, and the most important menus sit near the bottom of the list.",
+         "fix": "Lead with the key roster tasks, and move stats and news into the menu where they already live."
+        }
+       ],
+       "collapsed": true
+      }
+     ]
+    },
+    {
+     "heading": "What I recommended",
+     "blocks": [
+      {
+       "type": "bullets",
+       "items": [
+        "Add context cues and icon labels so players don't have to memorize",
+        "Use plain language instead of jargon and acronyms",
+        "Put high-value features like the Trade Center at the top of menus",
+        "Show more trade candidates at once, ranked by overall rating",
+        "Make trade interest match team needs, with a legend for the indicator",
+        "Guide new players through pre-snap adjustments and confirm when they take effect",
+        "Increase text size and contrast and use stable backgrounds",
+        "Cut unnecessary options, settings and sets"
+       ]
+      },
+      {
+       "type": "text",
+       "text": "These fixes are what I'd want usability tested next, especially with players who are new to Madden."
+      }
+     ]
+    }
+   ],
+   "nav": "Madden 26",
+   "kicker": "Heuristic evaluation",
+   "outcome": "16 players surveyed, ==11 problem areas== found, and new players hit hardest.",
+   "card": {
+    "type": "buttons",
+    "items": [
+     "R3",
+     "□",
+     "R1",
+     "R3",
+     "△",
+     "◀"
+    ],
+    "label": "Inputs for two pre-snap adjustments, in about five seconds"
+   },
+   "glance": [
+    {
+     "label": "Context",
+     "value": "Final project, Seminar in Human Factors (Psyc 273)"
+    },
+    {
+     "label": "Methods",
+     "value": "Player survey, principle, interface and goal-based analysis"
+    },
+    {
+     "label": "Participants",
+     "value": "16 surveyed"
+    },
+    {
+     "label": "When",
+     "value": "Fall 2025"
+    }
+   ],
+   "result": {
+    "big": "11",
+    "label": "usability problem areas, each with a fix",
+    "text": "Madden succeeds despite these problems because its players love football. Fixing them would make it far more welcoming to new players and less tiring for the dedicated ones."
+   }
+  },
+  {
+   "id": "uxr-interview-library",
+   "title": "UXR Interview Library: a usability study in progress",
+   "short": "UXR Interview Library study",
+   "meta": "In progress · Volunteer project with 2 other grad students, for Daniel Smith (UX Researcher, LinkedIn)",
+   "summary": "A survey and moderated usability study of a tool where UX researchers practice interview questions and get expert feedback. The protocol is done and we're recruiting now.",
+   "hook": "A week before each session, an expert reviews the answer the participant submitted in our survey. Then we ask them to go find that feedback.",
+   "sections": [
+    {
+     "heading": "The tool",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "The UXR Interview Library helps UX researchers practice for job interviews. You pick your experience level and interview stage, find a question, write an answer, and get expert feedback tagged Positive, Neutral or Critique, with skill tags like research skills or stakeholder management."
+      }
+     ]
+    },
+    {
+     "heading": "What we want to learn",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "The main goal is to find out how well the platform works today and how to improve it. Underneath that are five questions:"
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "What do people expect when they log in, and can they find what they're looking for?",
+        "When are people most interested in visiting the site?",
+        "What's missing, and what's the most logical thing to add?",
+        "What else are UX researchers using to practice, and what's missing from those tools?",
+        "How do needs differ across experience levels?"
+       ]
+      },
+      {
+       "type": "text",
+       "text": "The survey handles the second, fourth and fifth. The usability sessions focus on the first one and the main goal: can people find their way around and get things done."
+      }
+     ]
+    },
+    {
+     "heading": "How it runs",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "First, survey participants use the tool on their own, submit an answer to a question, and can opt in to a follow-up. Then 5 to 10 of them join a 30-minute remote session where they share their screen and think aloud through four tasks:"
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Find a question that fits your experience level",
+        "Read another person's answer and explain the feedback it got",
+        "Find your own submission and the feedback on it",
+        "Find where you'd report a problem or suggest something"
+       ]
+      },
+      {
+       "type": "more",
+       "summary": "What we measure in each session",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "For each task we record completion and time, and ask a Single Ease Question (1–7, flagged under 5.5) plus a few follow-ups. Each follow-up question ties to one of the research questions, so the analysis maps straight back to what Daniel wants to know. Everyone gets the questions in the same order, and a SUS and NPS survey goes out right after the session."
+        }
+       ]
+      },
+      {
+       "type": "image",
+       "src": "img/uxr-tool-tracker.webp",
+       "caption": "Session tracker we fill in live: completion, time and SEQ for each task.",
+       "wide": true,
+       "w": 1382,
+       "h": 766
+      }
+     ]
+    },
+    {
+     "heading": "Choices I'd point to",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "Applying real feedback before the session means the third task tests the actual feedback loop instead of a staged one. The facilitator guide separates the read-aloud script from facilitator notes and flags, so any of the three of us can run a session the same way. And the per-task Single Ease Question is the one I flagged as missing from my Airbnb study."
+      }
+     ]
+    }
+   ],
+   "nav": "UXR Library",
+   "kicker": "Usability study · in progress",
+   "outcome": "Protocol finalized. ==Recruiting participants now.==",
+   "card": {
+    "type": "image",
+    "image": "img/uxr-tool-tracker.webp"
+   },
+   "glance": [
+    {
+     "label": "Role",
+     "value": "One of 3 graduate student researchers"
+    },
+    {
+     "label": "Client",
+     "value": "Daniel Smith, UX Researcher at LinkedIn (volunteer)"
+    },
+    {
+     "label": "Methods",
+     "value": "Survey, then remote moderated usability testing"
+    },
+    {
+     "label": "Participants",
+     "value": "5–10 planned"
+    },
+    {
+     "label": "Status",
+     "value": "Protocol finalized, recruiting now"
+    }
+   ],
+   "result": {
+    "big": "Up next",
+    "label": "Sessions start once recruiting wraps",
+    "text": "Findings and recommendations will land here when the sessions are done."
+   }
+  }
+ ],
+ "current": []
+}
