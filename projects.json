@@ -2,15 +2,53 @@
  "person": {
   "name": "Jerry Shaughnessy",
   "intro": [
-   "I'm a Human Factors & Ergonomics grad student at San José State. I run usability tests, surveys and interviews, then turn what I see into recommendations a team can act on."
+   "UX researcher and Human Factors & Ergonomics grad student at San José State. I run usability tests, surveys and interviews, then turn what I see into recommendations a team can act on."
   ],
   "updated": "October 2026",
   "photo": "",
   "email": "jerry.shaughnessy@sjsu.edu",
   "links": [],
   "description": "UX research portfolio of Jerry Shaughnessy, a Human Factors & Ergonomics grad student at San José State: an Airbnb usability study, a Madden 26 heuristic evaluation and a UXR Interview Library study.",
-  "headline": "I find where people ~~get stuck~~.",
-  "note": "currently: audience research intern at KQED"
+  "headline": "Research that starts with what people actually do.",
+  "note": "Currently: Audience Intelligence Research Intern at KQED"
+ },
+ "about": {
+  "heading": "About",
+  "intro": "I came to UX research through teaching and coaching. I've coached high school baseball and worked one-on-one with a student who communicates using an AAC device, which is now the focus of my graduate research. I like working with people, I love being part of a team, and I care about making things easier to learn and use.",
+  "groups": [
+   {
+    "title": "Education",
+    "items": [
+     { "role": "M.S. Human Factors & Ergonomics", "org": "San José State University", "when": "expected December 2027" },
+     { "role": "B.S. Cognitive Science and B.A. Psychology, both with Honors", "org": "UC Santa Cruz", "when": "2024" }
+    ]
+   },
+   {
+    "title": "Experience",
+    "items": [
+     { "role": "Audience Intelligence Research Intern", "org": "KQED", "when": "2026–present", "detail": "member interviews, panel surveys, and usability testing of KQED.org" },
+     { "role": "Graduate Research Assistant", "org": "XIE Lab at SJSU", "when": "2025–present", "detail": "diary studies, interviews and usability sessions on AI-assisted AAC and AI tutoring, with two papers at HFES 2026" },
+     { "role": "Undergraduate Research Assistant", "org": "Spontaneous Communication Lab at UCSC", "when": "2022–2024" },
+     { "role": "Behavioral Technician", "org": "Amergis Healthcare", "when": "2024–2025", "detail": "one-on-one classroom support for a student using an AAC device" },
+     { "role": "Assistant Baseball Coach", "org": "San Lorenzo Valley High School", "when": "2024–2025" }
+    ]
+   },
+   {
+    "title": "Leadership",
+    "items": [
+     { "role": "Co-Founder", "org": "UCSC Club Baseball", "detail": "built the club from scratch and won official UCSC affiliation" },
+     { "role": "Event Director", "org": "SJSU HFES Student Chapter" }
+    ]
+   },
+   {
+    "title": "Publications",
+    "items": [
+     { "title": "Using Artificial Intelligence to Balance Agency and Efficiency in AAC Devices for Speech-Impaired Users.", "authors": "Kherella, Shaughnessy, Belleza & Xie.", "venue": "Proc. HFES Annual Meeting, 2026.", "url": "https://doi.org/10.1177/10711813261484496" },
+     { "title": "Adaptive Multimodal AI Tutoring: Using Real-Time Cues to Personalize Feedback and Support Engagement in Learning.", "authors": "Jung, Shaikh, Shaughnessy, et al.", "venue": "Proc. HFES Annual Meeting, 2026.", "url": "https://doi.org/10.1177/10711813261485171" }
+    ]
+   }
+  ],
+  "resume": { "label": "View my resume", "href": "Jerry_Shaughnessy_Resume.pdf" }
  },
  "projects": [
   {
